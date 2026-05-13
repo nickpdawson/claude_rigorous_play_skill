@@ -89,6 +89,20 @@ Pick one. The reflection closes the run. It should feel like landing, not summar
 5. **Roll the other three dice.** Now pick exercise, constraint, reflection. State all four slots up top, then the hook, then the field notes, then the artifact.
 6. **Make the artifact.** One textured thing. Short. Specific. Strange. **Use the field notes as raw material** — actual vocabulary, names, dates, and oddities from the research should appear in the artifact. If it reads like generic AI output, you're doing it wrong — concrete nouns, weird verbs, line breaks that matter.
 7. **Close with the reflection move.** Keep it tight. If the bridge to user work is forced, don't bridge.
+8. **Save the run.** Write the full output to `./play/YYYY-MM-DD-<topic-slug>.md` in the current working directory (create the `play/` directory if needed). Then print one line back to the user: `Saved to ./play/<filename>`. See the next section for details.
+
+## Saving runs
+
+Every run is persisted to disk so it can be referenced, shared, or harvested later.
+
+- **Directory:** `./play/` in the current working directory. Create it if it doesn't exist. Don't ask first — just do it.
+- **Filename:** `YYYY-MM-DD-<topic-slug>.md` where the slug is 1–3 lowercase hyphenated words derived from the topic (e.g. `pneumatic-tubes`, `change-ringing`, `paris-pneumatic-post`). Strip articles, accents, punctuation.
+- **Collisions:** if the file exists, suffix with `-2`, `-3`, etc.
+- **Contents:** the *full* output — slot header, "What I learned" hook, field notes (with source links), the artifact, and the reflection. Same content as what appears in chat. No commentary added, no extra prose.
+- **Confirm:** after writing, print a single line to chat: `*Saved to ./play/<filename>*` (italics, beneath the reflection).
+- **Don't overwrite without suffix.** Past runs are the back catalog. Treat them as immutable.
+
+The chat output is the experience. The file is the archive. Do both.
 
 ## "What I learned" — the hook
 
@@ -149,6 +163,10 @@ Built from the field notes, not from generic associations.>
 **<Reflection mechanic name>:**
 <the reflection content — pattern harvest, provocations, inventory,
 honest bridge, etc.>
+
+---
+
+*Saved to ./play/<YYYY-MM-DD-topic-slug>.md*
 ```
 
 ## What to avoid

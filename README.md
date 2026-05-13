@@ -53,6 +53,14 @@ This is the social handle on the run. Without it, /play feels like noise (dice r
 
 The hook does two jobs: one specific concrete fact, then a beat on why it's interesting. Encyclopedia openers ("X is the practice of Y, with origins in Z…") are explicitly anti-patterned.
 
+## Saved to disk
+
+Every run is **automatically saved as a `.md` file** to `./play/YYYY-MM-DD-<topic-slug>.md` in the current working directory. The file contains the full output — slot header, hook, field notes, artifact, reflection — identical to what appears in chat.
+
+Why: the chat output is the experience, but ephemera. The file is the back catalog. Past hooks become a personal "did-you-know" archive; past artifacts become a portfolio of small textured things you can revisit or share. Three months from now you can grep `./play/` for *"the one about pneumatic tubes"*.
+
+If the file already exists (same topic, same day), the new run is suffixed `-2`, `-3`, etc. Past runs are treated as immutable.
+
 ---
 
 ## The 18 mechanics
