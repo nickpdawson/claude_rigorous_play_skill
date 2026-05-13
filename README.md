@@ -63,6 +63,29 @@ Why: the chat output is the experience, but ephemera. The file is the back catal
 
 If the file already exists (same topic, same day), the new run is suffixed `-2`, `-3`, etc. Past runs are treated as immutable.
 
+## Interactive modes — playing *with* the agent
+
+Solo /play makes an artifact alone. **Interactive modes** put the user in the chair. Five available:
+
+| Mode | What it is |
+|---|---|
+| **`story-relay`** | One story, one line at a time, alternating. The constraint applies to every line. |
+| **`yes-and`** | Classic improv. Claude offers a premise grounded in the rolled topic; you yes-and; back and forth. No blocking. |
+| **`exquisite-corpse`** | Surrealist. Each side writes a passage but only shows the **last line** to the other. At the end, the full text is revealed. |
+| **`volley`** | Rotate the dice. Claude rolls topic + does research; *you* pick the exercise; Claude rolls the constraint; *you* write the artifact; Claude writes the reflection. |
+| **`translation-relay`** | One sentence passes through registers (recipe → prayer → weather report → safety placard…). The artifact is the chain. |
+
+Invocation:
+```
+/play interactive               # show the menu, pick a mode
+/play story-relay               # enter a mode directly
+/play yes-and topic:falconry    # mode + topic override
+```
+
+**Defaults:** 8 turns or *"that's all" / "end" / "done"* from either party. File is appended every turn so a crashed session keeps the work. Filename suffix indicates the mode: `2026-05-13-falconry-yes-and.md`.
+
+Why this matters: solo /play sparks Claude. Interactive /play sparks *both of you*. The improv rule about never blocking turns out to be a surprisingly good rule for design conversations too.
+
 ---
 
 ## The 18 mechanics

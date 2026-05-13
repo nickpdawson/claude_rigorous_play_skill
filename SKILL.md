@@ -200,6 +200,88 @@ honest bridge, etc.>
 
 Parse loosely. `/play topic:fungi` → fix topic, roll the other three. `/play exercise:museum-label constraint:as-a-lullaby` → fix two, roll two. Unknown overrides → roll everything and mention you didn't recognize the override.
 
+The first positional argument is also accepted as an **interactive mode name** (see below): `/play story-relay`, `/play yes-and topic:falconry`. If the first token matches a known mode, enter that mode; otherwise treat it as a normal solo run.
+
 ## When there is no active project
 
 Run the exercise pure. Don't invent a fake project to bridge back to. The artifact is the whole point. The reflection can simply be Pattern Harvest, Misuse, or Inventory of Strangeness — no bridge needed.
+
+## Interactive modes
+
+By default /play is a **solo** run — Claude makes the artifact alone. With **interactive modes**, the user is part of the artifact. The artifact emerges from the back-and-forth.
+
+### Invocation
+
+- `/play interactive` — show the menu of modes and ask the user to pick one.
+- `/play <mode-name>` — enter the mode directly (e.g. `/play story-relay`).
+- Topic and constraint overrides still apply: `/play yes-and topic:falconry constraint:no-adjectives`.
+
+### Behavior shared across all interactive modes
+
+- The opening slot dice still get rolled (topic, exercise where applicable, constraint, reflection). State them up top, same as solo.
+- Claude **still does the research step** — *hook + 4–6 field notes* — before the play begins. This grounds the session and gives both parties a shared starting point.
+- **File is created at the start** with the header, hook, and field notes, then **appended every turn** so a crashed session keeps everything that was made.
+- **Filename:** `./play/YYYY-MM-DD-<topic-slug>-<mode>.md` — the mode suffix makes the back catalog scannable.
+- **End condition:** *8 turns by default*, OR either party saying *"that's all" / "end" / "done"*. On end, Claude appends a short reflection and confirms the saved path.
+- After the user's turn, take a beat. Don't preempt. Wait for them.
+
+### The five modes
+
+#### 1. `story-relay`
+One story, one line at a time, alternating.
+
+**Flow:** Claude opens with line 1 → user writes line 2 → Claude line 3 → … → either party calls *"that's all"* or 8 lines reached → Claude writes a short closing reflection.
+
+The constraint applies to **every line**. If the constraint is *only verbs*, every line is verb-only. If *under 80 words*, every line is.
+
+**Append format:** each line on its own line in the file, unattributed. The story reads as one continuous piece.
+
+#### 2. `yes-and`
+Classic improv. Build a scene, a world, an argument, a small ritual. **Never block** — every turn must accept and build on what came before. *"No, but…"* is forbidden. *"Yes, and…"* (explicit or implicit) is the only move.
+
+**Flow:** Claude opens with a premise grounded in the rolled topic → user yes-ands → Claude yes-ands → … → 8 exchanges or end-phrase.
+
+The constraint applies to both parties' turns.
+
+**Append format:** `**Claude:** …` / `**You:** …` on alternating blocks.
+
+#### 3. `exquisite-corpse`
+Surrealist. Each writer sees only the **last line** of the previous passage.
+
+**Flow:** Claude writes a passage of 3–5 sentences → in chat, shows the user *only the last line* → user writes a new passage starting from that line → user shares back *only their last line* → continues → at the end, Claude reveals the full text.
+
+Default **6 passages**. The file is appended live; honor system — don't peek mid-game.
+
+**Append format:** passages in order, each labeled `**Passage <n> — Claude**` or `**Passage <n> — You**`.
+
+#### 4. `volley`
+Rotate the dice. Each party makes one substantial contribution. Single pass, four hand-offs.
+
+**Flow:**
+1. Claude rolls the topic, researches, writes hook + field notes.
+2. User picks the exercise (free choice, or pulls from the 18).
+3. Claude rolls the constraint.
+4. User writes the artifact.
+5. Claude writes the reflection.
+
+Good when you want the user fully in the chair for the creative move, with Claude providing structure on either side.
+
+**Append format:** the solo output template, with attribution on the artifact and reflection.
+
+#### 5. `translation-relay`
+One sentence passes through registers — each round translates the previous version into a new register (medium, mood, era, audience).
+
+**Flow:** user writes a seed sentence (or asks Claude to) → Claude translates it into a register (*recipe, prayer, weather report, safety placard, ransom note…*) → user translates Claude's version into a different register → continues → **6 rounds** or end-phrase.
+
+The artifact **is** the chain. Each translation should be a real translation — keep the meaning, swap the register. Not a paraphrase, not a riff.
+
+**Append format:** numbered list. Each entry shows the register and the rendered sentence.
+
+### When an interactive run ends
+
+On the final turn (or end-phrase), Claude:
+1. Writes a tight reflection — same options as solo (Pattern Harvest, Inventory of Strangeness, Misuse note, Borrowed Grammar note, Honest bridge).
+2. Appends the reflection to the saved file.
+3. Prints `*Saved to ./play/<filename>*` in chat as confirmation.
+
+The reflection should account for *both parties' moves*, not just Claude's. Reflect on what emerged from the collaboration, not what Claude alone made.
