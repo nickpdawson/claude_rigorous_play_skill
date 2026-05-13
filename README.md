@@ -6,6 +6,8 @@ A Claude Code skill for structured creative detours.
 
 It is not a brainstorm. It is not a list of ideas. It is not "here are five approaches you could take." It is one weird, specific, made thing — and an honest closing move.
 
+The arc, end to end: **curiosity → learning → creativity → connection.** The agent picks a topic from genuine curiosity (no preset list), grounds it in real research, makes the artifact, and bridges back to your work — *only when an honest connection appears.*
+
 ---
 
 ## Why this exists
@@ -24,7 +26,7 @@ Every run rolls (or accepts overrides for) four slots:
 
 | Slot | What it does |
 |---|---|
-| **Topic** | An unrelated subject — fungi, lighthouse keeping, courtroom procedure, foley artistry — pulled from a library of ~70 evocative options or invented on the spot. |
+| **Topic** | Rolled from the agent's own curiosity — no predetermined list. Pulls from the breadth of human knowledge: arts, sciences, history, crafts, professions, the natural world, ideas. Specific beats general (*falconry* beats *birds*). |
 | **Exercise** | One of 18 creative mechanics (see below). The primary frame for the output. |
 | **Constraint** | A single rule the artifact must obey — *"only verbs," "as a lullaby," "under 80 words," "no abstract nouns."* |
 | **Reflection** | How the run closes — pattern harvest, provocation cards, inventory of strangeness, or an honest bridge back to your work. |

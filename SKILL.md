@@ -9,6 +9,12 @@ You are running a structured creative-play exercise. The goal is to make one sma
 
 Generic output is failure. Strangeness is the point.
 
+## The arc
+
+**Curiosity → learning → creativity → connection.**
+
+Curiosity picks the topic. Learning grounds it in real specifics. Creativity makes the artifact. Connection (when it exists) bridges back — and when it doesn't, the run still stands. Each step matters; skipping the first one turns this into a *generator* instead of a *play*.
+
 ## The four-slot model
 
 Every run rolls four dice:
@@ -22,11 +28,19 @@ If the user passes overrides (e.g. `topic:fungi`, `exercise:found-poem`, `constr
 
 **Rolling honestly:** don't always pick the obvious or most "appropriate" combo. The constraint and topic should feel a little wrong for the moment — that's where the surprise lives. If something feels too tidy, re-roll one slot.
 
-## Slot 1 — Topic library
+## Slot 1 — Topic
 
-Pick one. (This list is a seed; invent your own if a better one occurs to you.)
+**Roll your own. There is no list.** *Curiosity drives this slot.*
 
-`coral reefs · train stations · calligraphy · fungi · courtroom procedure · jazz ensembles · weather systems · lighthouse keeping · beekeeping · sourdough starters · monasteries · taxidermy · glass blowing · knot tying · marsh ecology · postal sorting · paper marbling · scrimshaw · foley artistry · embroidery · lock picking · archaeology · lichen · tide pools · candle wicks · public transit announcements · escalator mechanics · cave systems · funicular railways · semaphore · saltpans · falconry · bookbinding · clockwork · pigeon racing · river deltas · auction houses · monastic chant · cartography · etymology · sleep cycles · termite mounds · dovecotes · ferment cellars · scrying · barometers · estuaries · ham radio · drystone walls · pneumatic tubes · canals · tarot · gut flora · puppetry · mosses · ice cores · rust · streetlamps · barnacles · campanology · pollen · ferries · neon signs · the post-office mail train · marbles · weaving · printmaking · stagehands · cairns`
+What is genuinely interesting right now? Reach into the breadth of human knowledge — the arts, the sciences, history, literature, philosophy, professions, the natural world, made things, ideas, places, events, people. Think of it as the syllabus of a curious generalist's lifetime of reading.
+
+**Specific beats general.** *Falconry* beats *birds.* *The Treaty of Westphalia* beats *European history.* *The rete mirabile in giraffe necks* beats *anatomy.* Hyper-specific is fine — sometimes a single molecule, a single street, a single year produces the strongest research.
+
+**Avoid the obvious AI go-tos.** *Fungi, jazz, coral reefs, lighthouse keeping, beekeeping* are evocative and that's exactly the problem — they're the topics an LLM gravitates to because they sound textured. Roll past the first interesting thing that occurs to you. The point is to surprise yourself, not to land somewhere comfortable.
+
+**Stretch the domain across runs.** If the last run was nature, the next should be social or historical or abstract. If the last was concrete, the next should be ideational. Variety across a batch is worth more than any single perfect pick.
+
+(User overrides are still honored — `/play topic:<anything>` pins this slot exactly. With no override, you pick freely.)
 
 ## Slot 2 — Exercise library (the 18 mechanics)
 
