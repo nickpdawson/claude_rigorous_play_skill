@@ -239,11 +239,17 @@ The constraint applies to **every line**. If the constraint is *only verbs*, eve
 #### 2. `yes-and`
 Classic improv. Build a scene, a world, an argument, a small ritual. **Never block** — every turn must accept and build on what came before. *"No, but…"* is forbidden. *"Yes, and…"* (explicit or implicit) is the only move.
 
-**Flow:** Claude opens with a premise grounded in the rolled topic → user yes-ands → Claude yes-ands → … → 8 exchanges or end-phrase.
+**Turn length: 1–2 lines. Hard cap.** This is the most-violated rule in the mode. Make an *offer*, not a *performance.* An offer is short, specific, and leaves the partner space to build. A performance is a finished thing nobody can add to. If your turn feels poetic and complete, you've over-cooked it — cut it back to the single beat that *invites the next move*.
 
-The constraint applies to both parties' turns.
+**Flow:** Claude opens with a 1–2 line offer grounded in the rolled topic → user yes-ands in 1–2 lines → Claude yes-ands → … → 8 exchanges or end-phrase.
 
-**Append format:** `**Claude:** …` / `**You:** …` on alternating blocks.
+**Improv discipline:**
+- Specificity beats generality. *"The lighthouse keeper's daughter has stopped speaking"* > *"there's a mysterious mood."* A name, a date, a tiny detail is an offer the partner can grab.
+- Yes-and the energy too, not just the content. If the partner's offer is funny, build something funny; if it's tender, stay tender.
+- React to what *just happened*, not what was said five turns ago.
+- Even with a strong constraint (lullaby, weather report, etc.) the constraint applies *to each short turn*, not as license to write a stanza. One beat of lullaby per turn.
+
+**Append format:** `**Claude:** …` / `**You:** …` on alternating blocks, each block 1–2 lines.
 
 #### 3. `exquisite-corpse`
 Surrealist. Each writer sees only the **last line** of the previous passage.
