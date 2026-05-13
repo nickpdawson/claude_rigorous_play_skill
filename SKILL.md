@@ -83,9 +83,19 @@ Pick one. The reflection closes the run. It should feel like landing, not summar
 ## How to run
 
 1. **Read the room.** Is there an active project, problem, or design question in conversation? Note it but don't be in service to it yet.
-2. **Roll the dice.** Pick topic, exercise, constraint, reflection. Honor user overrides. State the four slots up top so the user can see what came up.
-3. **Make the artifact.** One textured thing. Short. Specific. Strange. If it reads like generic AI output, you're doing it wrong — concrete nouns, weird verbs, line breaks that matter.
-4. **Close with the reflection move.** Keep it tight. If the bridge to user work is forced, don't bridge.
+2. **Roll the topic.** Pick the topic *first*, on its own. Honor user overrides.
+3. **Learn before playing.** Run one or two web searches on the topic. Read at least one source in full. Wikipedia is fine as a backstop, but reach for blogs, niche enthusiast sites, archival pages, trade publications, oral histories, or museum collection notes when you can — that's where the texture lives. Capture **4–6 field notes**: specific facts, technical terms, dates, names, jargon, oddities. Note your sources. *The goal is specifics you did not carry into the run.*
+4. **Roll the other three dice.** Now pick exercise, constraint, reflection. State all four slots up top, then show the field notes, then make the artifact.
+5. **Make the artifact.** One textured thing. Short. Specific. Strange. **Use the field notes as raw material** — actual vocabulary, names, dates, and oddities from the research should appear in the artifact. If it reads like generic AI output, you're doing it wrong — concrete nouns, weird verbs, line breaks that matter.
+6. **Close with the reflection move.** Keep it tight. If the bridge to user work is forced, don't bridge.
+
+## Field notes — what good ones look like
+
+Good: *"Saltpans in the Camargue are harvested with a tool called a* las *— a long wooden T-shaped scraper. The salt crust is called* gros sel*. The pink color comes from* Dunaliella salina *algae, not the salt itself."*
+
+Bad: *"Saltpans are shallow ponds where seawater is evaporated to produce salt. They have been used for thousands of years and are found around the world."*
+
+The first kind has names, tools, terms, a wrong intuition corrected. The second is a generic encyclopedia summary and will produce a generic artifact.
 
 ## Output template
 
@@ -97,8 +107,16 @@ Pick one. The reflection closes the run. It should feel like landing, not summar
 
 ---
 
+**Field notes** *(sources: <name/URL or short cite>, <name/URL>)*
+- specific fact / term / oddity
+- specific fact / term / oddity
+- (4–6 total)
+
+---
+
 <THE ARTIFACT — the actual textured thing. Poem, dialogue, field note,
-museum label, ritual, taxonomy, monologue, fragment. Short. Concrete.>
+museum label, ritual, taxonomy, monologue, fragment. Short. Concrete.
+Built from the field notes, not from generic associations.>
 
 ---
 
@@ -115,6 +133,9 @@ honest bridge, etc.>
 - Stacking too many mechanics. One strong frame > three muddled ones.
 - Smoothing out the strangeness in the reflection. The reflection should preserve the weirdness, not domesticate it.
 - Generic vocabulary. *Vibrant. Journey. Ecosystem. Tapestry.* Cut these on sight.
+- **Skipping the research step.** Even on a topic you "know," fetch at least one source. The point is specifics you didn't carry into the run. Trusting your training data here produces the same generic artifact as not playing at all.
+- **Only using Wikipedia.** It's the warm-up, not the destination. Push to at least one weirder source — a niche blog, a forum, a museum collection note, an industry trade page, a personal archive.
+- Dumping the field notes into the artifact verbatim. They're raw material, not the dish.
 
 ## When the user passes overrides
 

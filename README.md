@@ -37,6 +37,14 @@ By default Claude rolls all four. You can pin any of them:
 /play exercise:found-poem constraint:as-a-lullaby
 ```
 
+## Learn before playing
+
+After the topic is picked, Claude does **a small piece of real research** — one or two web searches, at least one full source read — and surfaces 4–6 *field notes* before producing the artifact: specific facts, technical terms, dates, names, jargon, oddities. The artifact is then built from those notes.
+
+This is the difference between "an artifact about fungi" (LLM-internal association, often generic) and "an artifact about fungi that uses the actual word *anastomosis* and the name of the 1990s forest-ecology paper that coined *wood-wide web*." The texture comes from things you didn't already know.
+
+Wikipedia is allowed as a backstop, but the skill is explicitly told to reach for at least one weirder source — niche blogs, museum collection notes, trade publications, oral histories, enthusiast forums. Generic encyclopedia summaries produce generic artifacts.
+
 ---
 
 ## The 18 mechanics
