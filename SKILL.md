@@ -85,9 +85,29 @@ Pick one. The reflection closes the run. It should feel like landing, not summar
 1. **Read the room.** Is there an active project, problem, or design question in conversation? Note it but don't be in service to it yet.
 2. **Roll the topic.** Pick the topic *first*, on its own. Honor user overrides.
 3. **Learn before playing.** Run one or two web searches on the topic. Read at least one source in full. Wikipedia is fine as a backstop, but reach for blogs, niche enthusiast sites, archival pages, trade publications, oral histories, or museum collection notes when you can — that's where the texture lives. Capture **4–6 field notes**: specific facts, technical terms, dates, names, jargon, oddities. Note your sources. *The goal is specifics you did not carry into the run.*
-4. **Roll the other three dice.** Now pick exercise, constraint, reflection. State all four slots up top, then show the field notes, then make the artifact.
-5. **Make the artifact.** One textured thing. Short. Specific. Strange. **Use the field notes as raw material** — actual vocabulary, names, dates, and oddities from the research should appear in the artifact. If it reads like generic AI output, you're doing it wrong — concrete nouns, weird verbs, line breaks that matter.
-6. **Close with the reflection move.** Keep it tight. If the bridge to user work is forced, don't bridge.
+4. **Write the hook.** Distill the research into a 1–2 sentence "What I learned" — the one *interesting* thing, told in the voice of a curious colleague who just walked into the room. (See next section for tone.)
+5. **Roll the other three dice.** Now pick exercise, constraint, reflection. State all four slots up top, then the hook, then the field notes, then the artifact.
+6. **Make the artifact.** One textured thing. Short. Specific. Strange. **Use the field notes as raw material** — actual vocabulary, names, dates, and oddities from the research should appear in the artifact. If it reads like generic AI output, you're doing it wrong — concrete nouns, weird verbs, line breaks that matter.
+7. **Close with the reflection move.** Keep it tight. If the bridge to user work is forced, don't bridge.
+
+## "What I learned" — the hook
+
+This is the social handle on the run. Without it, /play feels like noise: dice rolled, weird thing made, no shared starting point. With it, the run lands the way a designer landing at a meeting lands: *"Hey, I read this random thing about swans — did you know they have serrated tongues? Anyway —"*
+
+The hook is 1–2 sentences, and it does two jobs:
+
+1. **One specific thing.** A fact, a structural oddity, a corrected misconception, a name. Concrete. Quotable.
+2. **Why it's interesting.** What it opens up, what it inverts, what's surprising about it. *Not* a summary.
+
+**Tone:** "*Did you know...*", "*Turns out...*", "*Here's the thing about X...*". Conversational. Generous. A gift to the room, not a status report.
+
+**Good hook:**
+> *What I learned: change ringing is a closed math puzzle dressed up as music — six bells, one rule (no bell shifts more than one position per row), and you traverse every possible permutation exactly once before landing back at the start. The bells aren't playing a song; they're enumerating a finite group, and the pleasure is the closure.*
+
+**Bad hook:**
+> *What I learned: campanology, also known as change ringing, is the art of ringing tuned bells in mathematical sequences. It originated in England and has a long tradition in church towers.*
+
+The first makes someone want to ask a follow-up. The second is a Wikipedia opener and ends the conversation.
 
 ## Field notes — what good ones look like
 
@@ -104,6 +124,12 @@ The first kind has names, tools, terms, a wrong intuition corrected. The second 
 **Exercise:** <mechanic name> — <one-line gloss of what it's doing here>
 **Constraint:** <the single rule>
 **Reflection:** <reflection mechanic>
+
+---
+
+**What I learned:** <1–2 sentence hook — one specific thing, then why
+it's interesting. Conversational. Sounds like a colleague walking in
+with something to share.>
 
 ---
 
@@ -136,6 +162,7 @@ honest bridge, etc.>
 - **Skipping the research step.** Even on a topic you "know," fetch at least one source. The point is specifics you didn't carry into the run. Trusting your training data here produces the same generic artifact as not playing at all.
 - **Only using Wikipedia.** It's the warm-up, not the destination. Push to at least one weirder source — a niche blog, a forum, a museum collection note, an industry trade page, a personal archive.
 - Dumping the field notes into the artifact verbatim. They're raw material, not the dish.
+- **Hook that reads like an encyclopedia opener.** "X is the practice of Y, with origins in Z." Wrong register. The hook is *colleague-walking-in*, not *Wikipedia-first-sentence*. Lead with the specific weird thing, then a beat of why-it-matters.
 
 ## When the user passes overrides
 

@@ -45,6 +45,14 @@ This is the difference between "an artifact about fungi" (LLM-internal associati
 
 Wikipedia is allowed as a backstop, but the skill is explicitly told to reach for at least one weirder source — niche blogs, museum collection notes, trade publications, oral histories, enthusiast forums. Generic encyclopedia summaries produce generic artifacts.
 
+## The hook — "what I learned"
+
+Before the field notes and the artifact, every run surfaces a **1–2 sentence "What I learned" hook** in a conversational register — the equivalent of a designer walking into a meeting and saying *"hey, I read this random thing about swans — did you know they have serrated tongues?"*
+
+This is the social handle on the run. Without it, /play feels like noise (dice rolled, weird thing made, no shared starting point). With it, the artifact lands inside a learning posture — *we're in a generative mode, here's the one specific thing that's interesting about this topic, now look at the thing I made* — and a teammate reading the output gets a hook they can react to before the strangeness hits.
+
+The hook does two jobs: one specific concrete fact, then a beat on why it's interesting. Encyclopedia openers ("X is the practice of Y, with origins in Z…") are explicitly anti-patterned.
+
 ---
 
 ## The 18 mechanics
